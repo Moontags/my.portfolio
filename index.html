@@ -5,21 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
     </head>
-    <body>
-    
+    <body>    
             <nav id="desktop-nav">
-                <div class="logo">Jari Peltola </div>
+                <div class="logo">Jari Peltola</div>
             <div>
                 <ul class="nav-links">
-                
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-
-        </div>
+              </div>
             </nav>
             <nav id="hamburger-nav">
             <div class="logo">Jari Peltola</div>
@@ -30,28 +28,32 @@
                 <span></span>
             </div>
             <div class="menu-links">
+                <ul>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>    
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>    
+              </div>
             </div>
-            </div>
-        </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="assets/assets/IMG_0342.jpeg" ralt="Jari Peltola"> 
+        </nav> 
+        <div class="profile-pic">
+            <img src="assets/assets/jari-profile_720.png" alt="project-img" class="my-pic">
         </div>
+        
+    <section id="profile">  
+      
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Jari Peltola</h1>
-            <p class="section__text__p2">Software developer</p>
+            <p class="section__text__p2">Frontend developer</p>
             <div class="btn-container"> 
                 <button class="btn btn-color-2" onclick="window.open('assets/assets/resume-example.pdf')"
                 >Download CV</button>
-                <button class="btn btn-color-1" onclick="location.hre='.#contact'"
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"
                 >Contact info</button>
             </div>
-            <div id="sosials-container">
+            <div id="socials-container">
                 <img src="assets/assets/linkedin.png" alt="My Linkedin profile" 
                 class="icon" onclick="location.href='https://www.linkedin.com/in/jari-jari-25b416153/'">
                 <img src="assets/assets/github.png" alt="My github profile" 
@@ -59,6 +61,199 @@
             </div>
         </div>
     </section>
-    <script src="main.js"></script>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <img src="assets/assets/istockphoto-164644457-612x612.jpg" alt="Profile picture" class="about-pic">
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/assets/experience.png" alt="Experience" class="icon">
+                        <h3>Experience</h3>
+                        <p>1 + 1/2 years<br>Junior Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/assets/education.png" alt="Education" class="icon">
+                        <h3>Education</h3>
+                        <p>Codecademy Full-Stack Engineer</p>
+                        <p>Student</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor molestiae odit enim! Voluptas dolorem, voluptates deleniti ab ipsum repellat expedita earum, molestias nostrum esse voluptatem nesciunt. Quisquam reiciendis impedit officiis totam! Maxime quas qui voluptas earum! Quo odit alias porro debitis at eius ea a exercitationem, molestias consectetur nam perspiciatis non amet recusandae voluptas molestiae beatae dolorum illum nostrum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus cupiditate rerum quis totam recusandae at expedita id ratione, temporibus repellendus eligendi accusamus libero error reprehenderit excepturi. Voluptatum, quod in!</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container"> 
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="details-container"> 
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+                <article>
+                    <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>Node JS</h3>
+                        <p>Basic</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>Git</h3>
+                        <p>Experience</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>Express JS</h3>
+                        <p>Basic</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/assets/experience.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>PostgreSQL</h3>
+                        <p>Basic</p>
+                    </div>
+                    </article>
+            </div>
+        </div>
+        <img src="assets/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">       
+           <div class="details-container color-container">
+            <div class="article-container">
+               <img src="assets/assets/istockphoto-588604692-612x612.jpg" alt="project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Moontags/joker'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://moontags.github.io/joker/'">
+                    Live Demo
+                </button>    
+            </div>
+           </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/assets/typewriter-3711589_640.jpg" alt="project 2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Moontags/agecounter/'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://moontags.github.io/agecounter/'">
+                    Live Demo
+                </button>    
+            </div>
+           </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/assets/office-932926_640.jpg" alt="project 3" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Moontags?tab=repositories'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://moontags.github.io/joker/'">
+                    Live Demo
+                </button>    
+            </div>
+           </div></div>
+        </div>
+        <img src="assets/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mail:examplemail@mail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assets/assets/linkedin.png" alt="linkedIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/jari-jari-25b416153/">linkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">   
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Jari Peltola. All Rights Reserved.</p>
+
+    </footer>                     
+     <script src="main.js"></script>
 </body>
 </html>
