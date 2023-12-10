@@ -58,7 +58,7 @@ a:hover {
 }
 
 .logo {
-    font-size: 3.5rem;
+    font-size: 5rem;
     letter-spacing: 0.5erem;
     font-family: Courier New, monospace;
     font-weight: 500;
@@ -185,7 +185,7 @@ section {
     width: 30%;
     height: 20%;
     margin: auto;
-    margin-top: 6rem;
+
     
   }
 
