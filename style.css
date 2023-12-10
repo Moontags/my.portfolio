@@ -24,37 +24,43 @@ p {
 
 a, .btn {
     transition: all 300ms ease;
+   
 }
 
 /*Desktop nav*/
 
 nav, .nav-links {
   display: flex;
+  color: aliceblue;
 }
 
 nav {
+    background-color: rgb(56, 51, 51);
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    padding: 2rem 0;
+   
 }
 
 .nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+    
+
 }
 
 a {
-  color: black;
+  color: rgb(180, 174, 174);
   text-decoration: none;
-  text-decoration-color: aliceblue;
+  text-decoration-color: rgb(76, 76, 77);
 }
 
 a:hover {
-    color: gray;
+    color: rgb(113, 138, 238);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181)
+    text-decoration-color: rgb(161, 184, 248)
 }
 
 .logo {
@@ -85,8 +91,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 24px;
-  width: 30px;
+  height: 1.5rem;
+  width: 2rem;
   cursor: pointer;
 }
 
@@ -164,8 +170,7 @@ a:hover {
 
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
+   
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -183,7 +188,6 @@ section {
     justify-content: center;
     align-items: flex-end;
     width: 30%;
-    height: 20%;
     margin: auto;
 
     
@@ -320,7 +324,7 @@ section {
     align-items: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    width: 100%;
+    width: 40%;
 }
 
 .about-containers {
@@ -340,7 +344,7 @@ section {
    
 }
 .text-container {
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -414,9 +418,7 @@ article .icon {
 
 /*Project Section*/
 
-#projects {
-    position: relative;
-}
+
 
 .project-container {
     border-color:rgb(163, 163 163);
@@ -445,18 +447,19 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    
 }
 
 .contact-info-upper-container {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb( 53, 53, 53) 0.1rem solid;
+    border: rgb(219, 214, 214) 0.1rem solid;
     border-color: rgb(163, 163 163);
     background: rgb(250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
+    
 }
 
 .contact-info-container {
