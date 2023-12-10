@@ -191,6 +191,7 @@ section {
 
   .my-pic {
     border: 4rem solid none; 
+    width: 100%;
   }
 
 
@@ -319,8 +320,7 @@ section {
     align-items: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    height: 20rem;
-    width: 24rem;
+    width: 100%;
 }
 
 .about-containers {
