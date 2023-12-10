@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 640px) {
    #profile {
     height: 83vh;
     margin-bottom: 2rem; 
@@ -8,7 +8,7 @@
    }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     #desktop-nav {
         display: none;
     }
@@ -17,6 +17,7 @@
     }
     #experience, .experience-details-container {
        margin-top: 2rem;
+       margin-bottom: 2rem;
     }
     #profile, .section-container {
         display: block;
@@ -91,12 +92,7 @@
         padding-bottom: 1rem;
     }
 }
-@media screen and (max-width: 1400px) {
-    #profile {
-        height: auto;  
-        margin-bottom: 1rem;
-    }
-}
+
 
 @media screen and (max-width: 1200px) {
     #profile {
