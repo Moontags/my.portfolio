@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif; 
-    background: linear-gradient(to bottom , #e6e7e9, #8ca7a7);
+    background: linear-gradient(to bottom , #fafafb, #a3ccf5);
 }
 
 html {
@@ -193,7 +193,7 @@ section {
 
 .profile-pic {
     display: flex;
-    opacity: 0.7;
+    opacity: 0.8;
     justify-content: center;
     align-items: flex-end;
     width: 30%;
@@ -350,12 +350,14 @@ section {
 .about-details-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     flex-direction: column;
+
 }
 
 .about-containers, .about-details-container {
     display: flex;
-   
+    flex-wrap: wrap;
 }
 .text-container {
     padding-bottom: 1rem;
@@ -371,7 +373,7 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: linear-gradient(to left, rgb(85, 85, 85), rgb(250, 250, 250), rgb(85, 85, 85)); 
+    background-image: linear-gradient(to bottom right, #4a4c4c, #e6e7e9, #4a4c4c);
     opacity: 0.8;
     border-radius: 2rem;
     border:rgb(53, 53, 53) 0.1rem solid;
@@ -472,7 +474,7 @@ article .icon {
     border-radius: 1rem;
     border: rgb(4, 4, 4) 0.1rem solid;
     border-color: rgb(163, 163 163);
-    background: linear-gradient(to left, rgb(85, 85, 85), rgb(250, 250, 250), rgb(85, 85, 85));
+    background-image: linear-gradient(to bottom right, #4a4c4c, #e6e7e9, #4a4c4c);
     opacity: 0.8;
     margin: 2rem auto;
     padding: 0.5rem;
