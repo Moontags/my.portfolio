@@ -36,7 +36,7 @@ nav, .nav-links {
 }
 
 nav {
-    background-image: linear-gradient(to bottom right, #4a4c4c, #e6e7e9, #4a4c4c);
+    background-image: linear-gradient(to bottom right, #a1d2fc, #e6e7e9, #a1d2fc);
     justify-content: space-around;
     align-items: center;
     padding: 2.4rem 0;
@@ -196,17 +196,14 @@ section {
     opacity: 0.8;
     justify-content: center;
     align-items: flex-end;
-    width: 30%;
+    width: 100%;
     margin: auto;
     margin-top: 3rem ;
 
     
   }
 
-  .my-pic {
-    border: 4rem solid none; 
-    width: 100%;
-  }
+
 
 
 #profile {
@@ -338,7 +335,7 @@ section {
     align-items: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    width: 40%;
+    width: 60%;
 }
 
 .about-containers {
@@ -373,7 +370,7 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background-image: linear-gradient(to bottom right, #4a4c4c, #e6e7e9, #4a4c4c);
+    background-image: linear-gradient(to bottom right, #a1d2fc, #e6e7e9, #a1d2fc);
     opacity: 0.8;
     border-radius: 2rem;
     border:rgb(53, 53, 53) 0.1rem solid;
@@ -474,7 +471,7 @@ article .icon {
     border-radius: 1rem;
     border: rgb(4, 4, 4) 0.1rem solid;
     border-color: rgb(163, 163 163);
-    background-image: linear-gradient(to bottom right, #4a4c4c, #e6e7e9, #4a4c4c);
+    background-image: linear-gradient(to bottom right, #a1d2fc, #e6e7e9, #a1d2fc);
     opacity: 0.8;
     margin: 2rem auto;
     padding: 0.5rem;
