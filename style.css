@@ -37,7 +37,7 @@ nav, .nav-links {
 }
 
 nav {
-    background-image: linear-gradient(to bottom right, #a1d2fc, #e6e7e9, #a1d2fc);
+    background-image: linear-gradient(to bottom right, #cdd0d2, #f9fafc, #cdd0d2);
     justify-content: space-around;
     align-items: center;
     padding: 2.4rem 0;
@@ -375,7 +375,7 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background-image: linear-gradient(to bottom right, #a1d2fc, #e6e7e9, #a1d2fc);
+    background-image: linear-gradient(to bottom right, #cdd0d2, #f9fafb, #cdd0d2);
     opacity: 0.8;
     border-radius: 2rem;
     border:rgb(53, 53, 53) 0.1rem solid;
@@ -476,7 +476,7 @@ article .icon {
     border-radius: 1rem;
     border: rgb(4, 4, 4) 0.1rem solid;
     border-color: rgb(163, 163 163);
-    background-image: linear-gradient(to bottom right, #a1d2fc, #e6e7e9, #a1d2fc);
+    background-image: linear-gradient(to bottom right, #cdd0d2, #f7f8fa, #cdd0d2);
     opacity: 0.8;
     margin: 2rem auto;
     padding: 0.5rem;
