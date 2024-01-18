@@ -343,6 +343,7 @@ section {
     display: flex;
     opacity: 0.7;
     margin: auto;
+    margin-bottom: 3rem;
     justify-content: center;
     align-items: center;
     padding-bottom: 1rem;
