@@ -13,6 +13,7 @@ body {
    
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -49,6 +50,7 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+    letter-spacing: 0.1rem;
     
 }
 
@@ -69,8 +71,8 @@ a:hover {
 
 .logo {
     font-size: 5rem;
-    letter-spacing: 0.3rem;
-    font-family: Courier New, monospace;
+    letter-spacing: 0.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
 
 }
@@ -120,13 +122,14 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
-    box-shadow: 0 0 1.5rem rgba(0,0,0, 0.4);
+    box-shadow: 0 0 1.2rem rgba(0,0,0, 0.4);
 }
 
 .menu-links a {
     display:block;
     padding: 0;
     text-align: center;
+    letter-spacing: 0.1rem;
     font-size: 1.2rem;
     color: black;
     text-decoration: none;
@@ -139,6 +142,7 @@ a:hover {
 }
 .menu-links li {
     padding: 0.3rem 2rem;
+    letter-spacing: 0.1rem;
 
 }
 .menu-links li:hover {
@@ -187,6 +191,7 @@ section {
 .section-container {
     
     display: flex;
+   
    
 }
 
@@ -237,33 +242,42 @@ section {
 .section__text {
     align-self: center;
     text-align: center;
+    letter-spacing: 0.3rem;
+  
 }
 .section__text p {
     font-weight: 600;
+    letter-spacing: 0.2rem;
 }
 
 .section__text__p1 {
     text-align: center;
     margin: 1rem;
+    letter-spacing: 0.3rem;
 }
+
 
 
 .section__text__p2 {
     font-size: 1.75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1rem;
 }
 
 .title {
     font-size: 2rem;
     text-align: center;
+    letter-spacing: 0.25rem;
+    margin-bottom: 1.8rem;
 }
 
 #socials-container {
    
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 8rem;
 }
 
 /*Icons*/
@@ -279,6 +293,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .btn {
@@ -363,6 +378,7 @@ section {
 }
 .text-container {
     padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
 }
 
 
@@ -381,6 +397,8 @@ section {
     border:rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163 163);
     text-align: center;
+    letter-spacing: 0.3rem;
+   
 }
 
 .section-container {
@@ -494,6 +512,7 @@ article .icon {
 
 .contact-info-container p {
     font-size: larger;
+   
     
 }
 
@@ -504,6 +523,7 @@ article .icon {
 
 .email-icon {
     height: 2.5rem;
+    
     
 }
 
@@ -518,6 +538,7 @@ footer {
 footer p {
     text-align: center;
     margin-top: 2rem;
+  
     
 }
 
